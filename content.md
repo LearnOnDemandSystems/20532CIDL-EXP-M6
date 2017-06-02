@@ -861,11 +861,10 @@ b. In the Deployment model section, ensure that the Resource manager option is s
 c. In the Account kind list, ensure that the General purpose option is selected.  
 d. In the Performance section, ensure that the Standard option is selected.  
 e. Click on the Replication list and select the Locally-Redundant Storage \)LRS) option.  
-f. In the Location list, select the region closest to your current location.  
-g. In the Resource group section, select the Use existing option.  
-h. In the Resource group section, locate the dialog box and provide the value 20532.  
-i. Ensure that the Pin to dashboard option is selected.  
-j. Click Create.
+f. In the Resource group section, select the Use existing option, and select your pre-existing Resource Group from the listbox.
+g. In the Location list, select the region closest to your current location.  
+h. Ensure that the Pin to dashboard option is selected.  
+i. Click Create.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -892,7 +891,7 @@ Note: you can use any of the keys listed for this lab.
 
 
 ### View connection string
-For the access key you selected, click the three ellipsis \)...) button to the right of the key. Once clicked, select the View connection string option.
+For the access key you selected, click the Copy button to the right of the Connection String field. 
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -903,7 +902,7 @@ For the access key you selected, click the three ellipsis \)...) button to the r
 
 
 ### Copy your connection string
-In the View connection string dialog, copy your connection string for the access key you selected. Close the View connection string dialog.
+If prompted, click the Allow Access button to allow the webpage to access the clipboard. 
 
 #### :bulb: KNOWLEDGE
 Note: This connection string will be used in various parts of this lab.
@@ -973,7 +972,7 @@ In the Solution Explorer pane, right-click the Contoso.Events.Data.Generation pr
 
 
 ### Open Cloud Explorer
-On the View menu, click Cloud Explorer. In the Cloud Explorer pane, under your Azure account \)not local), locate the Storage Accounts node and click the arrow at the left side to expand the node. If prompted for your account credentials, sign in by using your Microsoft Account. Expand the node for your newly created Storage Account under the Storage Accounts node.
+On the View menu, click Cloud Explorer. In the Cloud Explorer pane, under your Azure account \)not local), locate the Storage Accounts node and click the arrow at the left side to expand the node. If your Azure account is not visible, click the Account Management button at the top of the Cloud Explorer (next to Resource Types) and then select your subscription and click Apply. If your account is still not visible, choose Add Account. If prompted for your account credentials, sign in by using your Microsoft Account. Expand the node for your newly created Storage Account under the Storage Accounts node. If you don't see the new storage account, right-click the Storage Accounts node and choose Refresh.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -1151,7 +1150,7 @@ Update the setting by replacing the value of the value attribute \)currently Use
 
 
 ### 19.	On the Debug menu, click Start Debugging
-On the Debug menu, click Start Debugging
+On the Debug menu, click Start Debugging.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -1162,7 +1161,7 @@ On the Debug menu, click Start Debugging
 
 
 ### Verify the home page of the web application:
-On the home page of the web application, verify that it displays a list of events.
+If a command-line window appears, minimize it. On the home page of the web application, verify that it displays a list of events.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -1309,7 +1308,7 @@ Close RDP session and click OK to disconnect
 
 
 ### Stop VM to save billing charges
-If you are stopping labs for the day, on the vm2032 Overview page in the Azure Portal, click Stop to stop billing charges until you start labs again. When prompted, click Yes to stop the VM.
+If you are stopping labs for the day, on the vm2032 Overview page in the Azure Portal, click Stop to stop billing charges until you start labs again. If prompted, click Yes to stop the VM.
 
 #### :camera: SCREENSHOT
 >LODSProperties
